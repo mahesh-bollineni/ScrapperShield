@@ -951,6 +951,14 @@ export default function App() {
         <canvas ref={processedCanvasRef} />
       </div>
 
+      {/* Google AdSense Banner Container */}
+      <div className="w-full max-w-7xl mx-auto mt-8 p-4 bg-slate-900/50 border border-slate-800 rounded-xl text-center">
+        <div className="text-xs text-slate-500 uppercase tracking-wider mb-2">Sponsored Links</div>
+        <div className="min-h-[90px] flex items-center justify-center text-sm text-slate-400 italic">
+          Advertisement Space
+        </div>
+      </div>
+
     </div>
   );
 };
